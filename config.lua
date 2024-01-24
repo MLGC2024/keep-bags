@@ -41,8 +41,8 @@ Config.Bags = {
           },
           -- If active, the backpack only accepts items listed here and returns other items to the player
           whitelist = {
-               'iron',
-               'steel'
+              -- 'iron',
+              -- 'steel'
           },
           duration = {
                opening = 1,
@@ -63,8 +63,8 @@ Config.Bags = {
           },
           -- If active, the backpack accepts all items except those listed here
           blacklist = {
-               'water',
-               'steel'
+              -- 'water',
+              -- 'steel'
           }
      },
      {
