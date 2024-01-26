@@ -36,7 +36,7 @@ Config.Bags = {
                     ["bag"] = { item = 36, texture = 0 }
                },
                female = {
-                    ["bag"] = { item = 1, texture = 0 }
+                    ["bag"] = { item = 102, texture = 0 }
                }
           },
           -- If active, the backpack only accepts items listed here and returns other items to the player
@@ -58,7 +58,7 @@ Config.Bags = {
                     ["bag"] = { item = 36, texture = 1 }
                },
                female = {
-                    ["bag"] = { item = 85, texture = 13 }
+                    ["bag"] = { item = 85, texture = 7 }
                }
           },
           -- If active, the backpack accepts all items except those listed here
@@ -76,7 +76,7 @@ Config.Bags = {
                     ["bag"] = { item = 82, texture = 4 }
                },
                female = {
-                    ["accessory"] = { item = 123, texture = 0 }
+                    ["bag"] = { item = 82, texture = 0 }
                }
           }
      },
