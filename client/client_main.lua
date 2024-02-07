@@ -20,6 +20,7 @@ Harmony.Event.onNet('client:enter_password', function(id)
                icon = 'fa-solid fa-envelope'
           }
      })
+     TriggerEvent('wais:addmissionxp:passwordbag', 1) --added by pamela for wais battlepass
      if res and res['password'] then
           Harmony.Event.emitNet('server:open_with_password', id, res['password'])
      end
@@ -69,7 +70,7 @@ Harmony.Event.onNet('client:lockpick:menu', function(items)
                end
           }
      end
-
+     TriggerEvent('wais:addmissionxp:lockpickbag', 1) --added by pamela for wais battlepass
      Harmony.Menu.Translator(menu, Locale.is_rtl())
 end)
 
